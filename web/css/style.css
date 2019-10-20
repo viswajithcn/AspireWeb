@@ -43,7 +43,7 @@ h5,
 h6 {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 p {
@@ -1504,7 +1504,7 @@ h3.subheading-wthree {
 .serv-left h6,
 .serv-right h6 {
 	color: rgba(255, 255, 255, 0.47);
-	font-size: 2em;
+	font-size: 1.5em;
 	letter-spacing: 0.5px;
 	margin-bottom: 10px;
 	font-weight: 700;
