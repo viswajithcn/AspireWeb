@@ -125,5 +125,10 @@ window.onclick = function (event) {
     else if (event.target == modal) {
         modal.style.display = "none";
     }
-
+    else if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+    else if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
 }
