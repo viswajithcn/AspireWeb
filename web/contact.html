@@ -107,21 +107,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<h5 class="main-w3l-title">Get in touch</h5>
 			<div class="form-bg">
-				<form class="gform" action="https://script.google.com/macros/s/AKfycbylzabOx13RLvuN4kFox0X10OuIVxqUUq-q1u82/exec" method="post">
+					<form class="gform" method="POST" data-email="career@aspireacademy.tech"
+					action="
+					https://script.google.com/macros/s/AKfycbz6LkUNaBmvqJS3VEcC-acCguKD6OGCpXJ5VKb6/exec">
+			
 					<div class="col-md-6 contact-fields">
-						<input type="text" name="Name" placeholder="Name" required="">
+						<input type="text" name="name" placeholder="Name" required="">
 					</div>
 					<div class="col-md-6 contact-fields">
-						<input type="email" name="Email" placeholder="Email" required="">
+						<input type="email" name="email" placeholder="Email" required="">
 					</div>
 					<div class="contact-fields">
-						<input type="text" name="Subject" placeholder="Subject" required="">
+						<input type="text" name="subject" placeholder="Subject" required="">
 					</div>
 					<div class="contact-fields">
-						<textarea name="Message" placeholder="Message" required=""></textarea>
+						<textarea name="message" placeholder="Message" required=""></textarea>
 					</div>
-					<input type="submit" value="Submit">
+					<button>Send</button>
 				</form>
+				
 			</div>
 			<class="contact-maps">
 					<div>&nbsp;</div><div>&nbsp;</div>
@@ -194,7 +198,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- //smooth scrolling -->
 
-
+	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
 	<!-- stats -->
 	<script src="js/jquery.waypoints.min.js"></script>
@@ -292,6 +296,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	})();
 	</script>
 	<!--End of Tawk.to Script-->
+
+
 </body>
 
 </html>
