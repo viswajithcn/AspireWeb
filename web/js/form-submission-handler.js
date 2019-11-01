@@ -74,8 +74,14 @@
           if (formElements) {
             formElements.style.display = "none"; // hide form
           }
+          var submit_message = form.querySelector(".submit_message");
+          if (submit_message) {
+            
+            submit_message.style.display = "none";
+          }
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
+            
             thankYouMessage.style.display = "block";
           }
         }
@@ -100,6 +106,16 @@
     var buttons = form.querySelectorAll("button");
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
+      var formElements = form.querySelector(".form-elements")
+      if (formElements) {
+        formElements.style.display = "none"; // hide form
+        
+      }
+      var submit_message = form.querySelector(".submit_message");
+          if (submit_message) {
+            
+            submit_message.style.display = "block";
+          }
     }
   }
 })();

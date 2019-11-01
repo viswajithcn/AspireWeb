@@ -46,3 +46,42 @@
     display: inline-block;
     font-size: 16px;
   }
+
+  .B1:hover {
+    background: #b64c92;
+    color: #FFFFFF;
+  }
+  .sendbutton {
+    background-color:#00b6e3; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .sendbutton:hover {
+    background: #b64c92;
+    color: #FFFFFF;
+  }
+  .thankyou_message {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .submit_message {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

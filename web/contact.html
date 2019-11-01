@@ -30,6 +30,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/modal.css" rel="stylesheet" type="text/css" media="all" />
+	
 	<!--// Style-sheets -->
 	<!--web-fonts-->
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -49,20 +51,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h1><a href="index.html">
 								<img src="images/aspire-logo.svg" height="100" width="300" alt="Aspire IT Academy" />
 
-						</a></h1>
+							</a></h1>
 					</div>
 					<!-- navigation -->
 					<nav class="navbar navbar-default">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-							    aria-expanded="false">
-					<span class="sr-only">Toggle navigation<+
-						63/span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation<+ 63/span> <span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
 
 						</div>
 
@@ -82,7 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="search-agile-bar">
 						<div class="cd-main-header">
 							<ul class="cd-header-buttons">
-								
+
 							</ul>
 							<!-- cd-header-buttons -->
 						</div>
@@ -106,29 +106,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="contact-page">
 		<div class="container">
 			<h5 class="main-w3l-title">Get in touch</h5>
+
 			<div class="form-bg">
-					<form class="gform" method="POST" data-email="career@aspireacademy.tech"
-					action="
+				<form class="gform" method="POST" data-email="career@aspireacademy.tech" action="
 					https://script.google.com/macros/s/AKfycbz6LkUNaBmvqJS3VEcC-acCguKD6OGCpXJ5VKb6/exec">
-			
-					<div class="col-md-6 contact-fields">
-						<input type="text" name="name" placeholder="Name" required="">
+					<div style="display:none" class="thankyou_message">
+						<!-- You can customize the thankyou message by editing the code below -->
+						<h2><em>Thank you</em> for contacting us! We will get back to you soon.
+						</h2>
 					</div>
-					<div class="col-md-6 contact-fields">
-						<input type="email" name="email" placeholder="Email" required="">
+					<div style="display:none" class="submit_message">
+						<!-- You can customize the thankyou message by editing the code below -->
+						<h2><em>Please wait. Submitting the form.</em></h2>
 					</div>
-					<div class="contact-fields">
-						<input type="text" name="subject" placeholder="Subject" required="">
+					<div class="form-elements">
+						<div class="col-md-6 contact-fields">
+							<input type="text" name="name" placeholder="Name" required="">
+						</div>
+						<div class="col-md-6 contact-fields">
+							<input type="email" name="email" placeholder="Email" required="">
+						</div>
+						<div class="contact-fields">
+							<input type="text" name="subject" placeholder="Subject" required="">
+						</div>
+						<div class="contact-fields">
+							<textarea name="message" placeholder="Message" required=""></textarea>
+						</div>
+						<button class="sendbutton">Send</button>
 					</div>
-					<div class="contact-fields">
-						<textarea name="message" placeholder="Message" required=""></textarea>
-					</div>
-					<button>Send</button>
 				</form>
-				
+
 			</div>
 			<class="contact-maps">
-					<div>&nbsp;</div><div>&nbsp;</div>
+				<div>&nbsp;</div>
+				<div>&nbsp;</div>
 				<h5 class="main-w3l-title">Find us on the map</h5>
 				<div id="horizontalTab">
 					<ul class="resp-tabs-list">
@@ -139,22 +150,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="resp-tabs-container">
 						<div class="tab1">
 							<div class="col-md-5 add-left">
-								<p class="paragraph-agileinfo"><span>Location : </span>Aspire IT Academy, 1st floor, Pathuvana Building, Kunnumpuram - Old civil station road, Kakkanad, 682030</p>
+								<p class="paragraph-agileinfo"><span>Location : </span>Aspire IT Academy, 1st floor,
+									Pathuvana Building, Kunnumpuram - Old civil station road, Kakkanad, 682030</p>
 								<p class="paragraph-agileinfo"><span>Call Us : </span>9947144333, 9947244333</p>
-								<p class="paragraph-agileinfo"><span>Email : </span><a href="mailto:career@aspireacademy.tech">career@aspireacademy.tech</a></p>
+								<p class="paragraph-agileinfo"><span>Email : </span><a
+										href="mailto:career@aspireacademy.tech">career@aspireacademy.tech</a></p>
 							</div>
 							<div class="col-md-7 add-right">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d491.124983386117!2d76.34031376622303!3d10.016868706186846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1572093056427!5m2!1sen!2sin" allowfullscreen=""></iframe>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d491.124983386117!2d76.34031376622303!3d10.016868706186846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1572093056427!5m2!1sen!2sin"
+									allowfullscreen=""></iframe>
 							</div>
 							<div class="clearfix"></div>
 						</div>
 
 					</div>
 				</div>
-			</div>
 		</div>
 	</div>
-</div>
+	</div>
+	</div>
 
 
 
@@ -166,36 +181,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-agileits-w3layouts">
 		<div class="container">
 			<div class="btm-logo-w3ls">
-				
+
 				<h2><a href="index.html">
-						<img src="images/aspire-logo.svg" height="80" width="300" alt="Aspire IT Academy" />	
-				</a></h2>
+						<img src="images/aspire-logo.svg" height="80" width="300" alt="Aspire IT Academy" />
+					</a></h2>
 			</div>
 			<div class="subscribe-w3ls">
 				<form action="#" method="post">
-						<a href="mailto:career@aspireacademy.tech"><b>Contact Us</b></a>
-					</div>
-					<div class="clearfix"> </div>
-				</form>
+					<a href="mailto:career@aspireacademy.tech"><b>Contact Us</b></a>
 			</div>
-			<div class="social-icons-agileits">
-				<ul>
-					<li><a href="https://www.facebook.com/aspireitacademy/"><span class="fa fa-facebook"></span></a></li>
-					
-				</ul>
-			</div>
-
 			<div class="clearfix"> </div>
+			</form>
 		</div>
+		<div class="social-icons-agileits">
+			<ul>
+				<li><a href="https://www.facebook.com/aspireitacademy/"><span class="fa fa-facebook"></span></a></li>
+
+			</ul>
+		</div>
+
+		<div class="clearfix"> </div>
+	</div>
 	</div>
 	<div class="copyright-w3layouts">
 		<div class="container">
-			<p>&copy; 2019 Aspire IT Academy . All Rights Reserved | Design by <a href="index.html"> Aspire IT Academy </a></p>
+			<p>&copy; 2019 Aspire IT Academy . All Rights Reserved | Design by <a href="index.html"> Aspire IT Academy
+				</a></p>
 		</div>
 	</div>
 	<!-- //Footer -->
 
-	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
+		</span></a>
 	<!-- //smooth scrolling -->
 
 	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
@@ -284,16 +301,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/bootstrap.js"></script>
 	<!-- //Js for bootstrap working -->
 	<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/5db3eabd78ab74187a5b9d2b/default';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
-	})();
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5db3eabd78ab74187a5b9d2b/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
 	</script>
 	<!--End of Tawk.to Script-->
 
