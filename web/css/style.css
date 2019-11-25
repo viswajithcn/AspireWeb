@@ -822,7 +822,7 @@ p.sub-para {
 	font-family: 'Righteous', cursive;
 	margin-left: 8em;
 	line-height: 1.15em;
-	font-family: 'Righteous', cursive;
+	font-family: 'Impact', cursive;
 }
 
 .slider-info p {
@@ -1186,7 +1186,7 @@ h5.main-w3l-title {
 	margin-bottom: 0.6em;
 	color: #000;
 	letter-spacing: 4px;
-	font-family: 'Righteous', cursive;
+	font-family: 'Open Sans', cursive;
 }
 
 .about-section,
@@ -1785,7 +1785,7 @@ h3.subheading-wthree {
 	margin-top: 6%;
 	text-transform: capitalize;
 	color: #ffffff;
-	font-family: 'Righteous', cursive;
+	font-family: 'Tahoma', cursive;
 }
 
 .gal_grid_outer:hover .gallery_grid_pos {
